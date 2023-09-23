@@ -1,6 +1,6 @@
 # Multilingual HomePage
 ## open source
-<img height="20px" src="https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="vueJS" title="vueJS"/> <img height="20px" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JS" title="JS"/> <img height="20px" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="sass" title="sass"/>
+<img height="20px" src="https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="vueJS" title="vueJS"/> <img height="20px" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JS" title="JS"/> <img height="20px" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="sass" title="sass"/> <img height="20px" src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" alt="json" title="json"/>
 <br/>
 <br/>
 Multilingual HomePage: Dive into an immersive experience with our Vue 3 application, designed to offer a plethora of captivating features:
