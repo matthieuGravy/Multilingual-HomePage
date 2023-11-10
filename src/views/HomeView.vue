@@ -138,7 +138,9 @@ export default {
             <h3>
               {{ getText("authentic") }}
             </h3>
-            <a class="btn radi-all" href=""> {{ getText("buttonShow") }}</a>
+            <a class="btn radi-all" href="https://github.com/matthieuGravy">
+              {{ getText("buttonShow") }}</a
+            >
           </div>
         </div>
         <div class="language-buttons">
@@ -194,7 +196,7 @@ main {
             width: 100%;
 
             .img-graf {
-              background-image: url("../assets/images/pexels-wendelin-jacober-1447073.jpg");
+              background-image: url("/src/assets/images/pexels-wendelin-jacober-1447073.jpg");
               background-repeat: no-repeat;
               background-size: cover;
               background-position: center center;

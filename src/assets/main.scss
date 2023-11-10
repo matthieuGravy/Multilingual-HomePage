@@ -1,9 +1,10 @@
-@import './base.scss';
-@import './classes.scss';
+@import "./base.scss";
+@import "./classes.scss";
 #app {
   min-height: 100vh;
   margin: 0 auto;
   font-weight: normal;
+  max-width: 100vw;
   /*
   @media (min-width: 1024px) {
     display: grid;
