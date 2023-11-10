@@ -66,7 +66,6 @@ export default {
   max-width: 380px;
   display: flex;
   text-align: center;
-  background-color: red;
   @media screen and (min-width: 950px) {
     max-width: 90%;
     font-family: "Rajdhani", sans-serif;
