@@ -111,7 +111,7 @@ export default {
               <div class="cadre">
                 <div class="contain-img radi-all">
                   <img
-                    src="/src/assets/images/matt-pink.svg"
+                    src="/src/assets/images/becode-matt-chemise.svg"
                     class="radi-all"
                     alt="Matthieu"
                   />
@@ -134,14 +134,14 @@ export default {
               </div>
             </div>
           </div>
-          <div class="mission-container">
+          <article class="mission-container">
             <h3>
               {{ getText("authentic") }}
             </h3>
             <a class="btn radi-all" href="https://github.com/matthieuGravy">
               {{ getText("buttonShow") }}</a
             >
-          </div>
+            </article>
         </div>
         <div class="language-buttons">
           <button
@@ -179,13 +179,13 @@ main {
           align-items: center;
           color: white;
           position: relative;
-          background-color: black;
+          background-color: var(--color-black-bg);
           opacity: 0.92;
         }
 
         &-two {
           height: auto;
-          background-color: black;
+          background-color: var(--color-black-bg);
           color: white;
           display: flex;
           flex-direction: column;
@@ -252,10 +252,12 @@ main {
 
         &-three {
           min-height: auto;
-          background-color: black;
+          background-color: var(--color-black-bg);
           position: relative;
           .bloc-mission {
             max-width: 1280px;
+            column-gap: 10rem;
+            row-gap: 2rem;
             display: flex;
             margin: auto;
             @media screen and (max-width: 1280px) {
@@ -273,7 +275,7 @@ main {
                 margin: auto;
                 //width: 60%;
                 place-self: center;
-                font-size: 4.2vh;
+                font-size: 2.1rem;
                 color: white;
                 margin-bottom: 1rem;
                 @media screen and (max-width: 900px) {
@@ -306,11 +308,12 @@ main {
             }
             .bloc-card {
               flex: 1;
-              min-height: 70vh;
+              @media screen and (min-width: 1280px) {
 
+                height: 70vh;
+              }
               .groupe-cadre {
                 text-align: center;
-                border-radius: 25px;
                 opacity: 1;
                 margin: auto;
                 .cadre {
@@ -320,6 +323,8 @@ main {
                   }
 
                   img {
+                    background-color: blue;
+                    max-width: 20rem;
                     animation-name: blur;
                     animation-duration: 3s;
                     animation-iteration-count: infinite;
@@ -335,6 +340,7 @@ main {
                   }
                 }
                 .developper {
+                  
                   color: white;
                   display: grid;
                   flex-direction: column;
@@ -342,11 +348,14 @@ main {
                   h2 {
                     flex: 1;
                     margin-top: 1vh;
-                    font-size: 4vh;
+                    font-size: 2.2rem;
                     place-self: center;
                     letter-spacing: 0.2rem;
                     @media screen and (max-width: 400px) {
                       margin-top: 0;
+                    }
+                    @media screen and (min-width: 1280px) {
+                      padding-top: 3rem;
                     }
                     span {
                       font-weight: 500;
@@ -380,6 +389,7 @@ main {
               }
 
               .cadre {
+             
                 justify-content: center;
                 position: relative;
                 img {
@@ -407,11 +417,11 @@ main {
                     letter-spacing: 0.2rem;
 
                     &-contact {
-                      background-color: black;
+                      background-color: var(--color-black);
                     }
 
                     &-about {
-                      background-color: #424c49;
+                      background-color: var(--color-gray);
                     }
                   }
                 }

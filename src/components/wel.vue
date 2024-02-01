@@ -15,7 +15,7 @@ export default {
         duration: 1,
         ease: "power4.easeInOut",
         onComplete: () => {
-          message.value = "Your";
+          message.value = "JavaScript";
         },
       });
 
@@ -25,7 +25,7 @@ export default {
         duration: 0.5,
         ease: "power4.easeInOut",
         onComplete: () => {
-          message.value = "web developper";
+          message.value = "TypeScript";
         },
       });
       tlGraf.to(titleElement, {
@@ -34,7 +34,7 @@ export default {
         duration: 1,
         ease: "power4.easeInOut",
         onComplete: () => {
-          message.value = "Your";
+          message.value = "React";
         },
       });
       tlGraf.to(titleElement, {
@@ -43,7 +43,7 @@ export default {
         duration: 0.5,
         ease: "power4.easeInOut",
         onComplete: () => {
-          message.value = "Partner";
+          message.value = "Vue";
         },
       });
     });
